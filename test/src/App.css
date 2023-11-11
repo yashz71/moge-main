@@ -1,0 +1,24 @@
+/* Add your styles to make the modal look the way you want */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1;
+  }
+  
+  /*.modal-content {
+     Add your styles for the content of the modal 
+  }*/
+  
+  .close {
+    
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
